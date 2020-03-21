@@ -165,16 +165,4 @@ public class Pessoa {
 		this.email = email;
 	}
 
-	@Override
-	public String toString() {
-		return "Pessoa [codigo=" + codigo + ", nome=" + nome + ", cpf=" + cpf + ", rg=" + rg + ", rua=" + rua
-				+ ", numero=" + numero + ", bairro=" + bairro + ", cep=" + cep + ", complemento=" + complemento
-				+ ", telefone=" + telefone + ", celular=" + celular + ", email=" + email + ", getCodigo()="
-				+ getCodigo() + ", getNome()=" + getNome() + ", getCpf()=" + getCpf() + ", getRg()=" + getRg()
-				+ ", getRua()=" + getRua() + ", getNumero()=" + getNumero() + ", getBairro()=" + getBairro()
-				+ ", getCep()=" + getCep() + ", getComplemento()=" + getComplemento() + ", getTelefone()="
-				+ getTelefone() + ", getCelular()=" + getCelular() + ", getEmail()=" + getEmail() + ", getClass()="
-				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + "]";
 	}
-
-}
